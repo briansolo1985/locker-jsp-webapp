@@ -1,0 +1,204 @@
+@CHARSET "UTF-8";
+
+body {
+	background: -webkit-linear-gradient(left top, #C0E7F3 , #FAFDFE) no-repeat center center fixed;
+	background: -o-linear-gradient(bottom right, #C0E7F3, #FAFDFE) no-repeat center center fixed;
+	background: -moz-linear-gradient(bottom right, #C0E7F3, #FAFDFE) no-repeat center center fixed; 
+	background: linear-gradient(to bottom right, #C0E7F3 , #FAFDFE) no-repeat center center fixed; 
+}
+
+input.simpleButton {
+	width: 60px;
+	height: 23px;
+	border: 1px outset black;
+	background: #E9F1EA;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+}
+
+input.headerButton {
+	width: 80px;
+	height: 30px;
+	border: 1px outset black;
+	background: #E9F1EA;
+	
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+div.loginWindow {
+	background: #DBEBFF;
+	border: 1px solid black;
+	font-weight: bold;
+	width: 400px;
+	position: relative;
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+}
+
+div.loginWindow-title {
+	background: #57BCD9;
+	width: 100%;
+	height: 24px;
+	border-bottom: 1px solid black;
+}
+
+div.loginWindow-content {
+	width: 100%;
+	padding: 10px 0px;
+}
+
+div.loginWindow-buttonbar {
+	width: 100%;
+	padding: 5px 0px;
+	border-top: 1px dotted black;
+}
+
+div.loginWindow-highlight {
+	background: #8DC7BB;
+	margin: 0px auto;
+}
+
+div.errorWindow {
+	background: #F9F3EC;
+	border: 1px solid black;
+	font-weight: bold;
+	width: 400px;
+	position: relative;
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+}
+
+div.errorWindow-title {
+	background: #FFA8A8;
+	width: 100%;
+	height: 24px;
+	border-bottom: 1px solid black;
+}
+
+div.errorWindow-content {
+	background: #F9F3EC;
+	width: 100%;
+	padding: 10px 0px;
+}
+
+div.errorWindow-buttonbar {
+	width: 100%;
+	padding: 5px 0px;
+	border-top: 1px dotted black;
+}
+
+div.headerBar {
+	width: 100%;
+	padding-top: 5px;
+	border: 1px outset black;
+	margin-bottom: 10px;
+	height: 45px;
+	float:left;
+  	background: #EFF9FC;  
+  	
+  	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+div.headerBar-title {
+	float:left;
+	font-size: 24px;
+	margin-left:10px;
+	margin-top:5px;
+}
+
+div.headerBar-banner {
+	width: 400px;
+	font-size: 30px;
+	font-weight: bold;
+	margin: auto;
+	position: relative;
+}
+
+div.headerBar-buttonContainer {
+	float:right;
+	width: 90px;
+	border:1px solid #EFF9FC;
+ 	height: 35px; 
+ 	margin-top:-32px;
+ 	
+}
+
+div.locker {
+	width: 100px;
+	height: 130px;
+	border: 1px outset black;
+	margin: 5px;
+	float: left;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	
+	background: -webkit-linear-gradient(left, #5EAE9E , #C0E0DA 34px) repeat;
+	background: -o-linear-gradient(right, #5EAE9E, #C0E0DA 34px) repeat;
+	background: -moz-linear-gradient(right, #5EAE9E, #C0E0DA 34px) repeat; 
+	background: repeating-linear-gradient(to right, #5EAE9E , #C0E0DA 34px) ;
+	
+	box-shadow: 0px 0px 0px 1px black;
+}
+
+div.locker-namePlate {
+	background: #DBEADC;
+	border: 1px solid black;
+	width: 70px;
+	position: relative;
+	margin: auto;
+	text-align: center;
+	margin-top: 10px;
+}
+
+div.locker-ownerPlate-open {
+	background: #72FE95;
+	border: 1px solid black;
+	width: 70px;
+	position: relative;
+	margin: 10px auto 30px auto;
+	text-align: center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+div.locker-ownerPlate-closed {
+	background: #FF8A8A;
+	border: 1px solid black;
+	width: 70px;
+	position: relative;
+	margin: 10px auto 30px auto;
+	text-align: center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+div.locker-ownerPlate-mine {
+	background: #FFE699;
+	border: 1px solid black;
+	width: 70px;
+	position: relative;
+	margin: 10px auto 30px auto;
+	text-align: center;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+div.locker-buttonContainer {
+	width: 60px;
+	position: relative;
+	margin: auto;
+}
+}
